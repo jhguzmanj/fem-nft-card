@@ -1,4 +1,1 @@
-This folder contains my solution:
-- html file
-- css file
-- solution_screenshots folder
+This folder contains the screenshot of my solution to Frontend Mentor NFT Card Component Challenge
