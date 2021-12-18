@@ -1,8 +1,5 @@
-# nft-card
-Solution to a Frontend Mentor challenge: creating a similar webpage as the design preview provided
-
 # Frontend Mentor - NFT preview card component solution
-This is a solution to the [NFT preview card component challenge on Frontend Mentor] (https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U).
+This is a solution to the [NFT preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U).
 
 ## Table of contents
 
@@ -31,8 +28,9 @@ Users should be able to:
 - [On desktop hovered](solution-screenshots/desktop_focused_screenshot.jpg)
 - [On mobile screen](solution-screenshots/mobile_screenshot.jpg)
 
-### Link
-Solution URL: [GitHub page](https://anoshaahmed.github.io/nft-card/)
+### Links
+- Solution URL: [FrontEnd Mentor: My Solution](https://www.frontendmentor.io/solutions/nft-card-component-solution-using-flexbox-F8Dt9QZse)
+- Live Site URL: [GitHub Page: NFT Card](https://anoshaahmed.github.io/nft-card/)
 
 
 ## --- My process ---
