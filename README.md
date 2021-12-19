@@ -89,4 +89,4 @@ In the future, i aim to:
 - Website - [Anosha Ahmed](https://www.anoshaahmed.com) *i have not created my website yet but i will soon.*
 - Frontend Mentor - [@anoshaahmed](https://www.frontendmentor.io/profile/anoshaahmed)
 - GitHub - [@anoshaahmed](https://github.com/anoshaahmed)
-
+- Twitter - [@anosha1ahmed](https://www.twitter.com/anosha1ahmed)
