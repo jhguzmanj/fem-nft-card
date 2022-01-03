@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 - Solution URL: [FrontEnd Mentor: My Solution](https://www.frontendmentor.io/solutions/nft-card-component-solution-using-flexbox-F8Dt9QZse)
-- Live Site URL: [GitHub Page: NFT Card](https://anoshaahmed.github.io/nft-card/)
+- Live Site URL: [GitHub Page: NFT Card](https://anoshaahmed.github.io/fem-nft-card/)
 
 
 ## --- My process ---
