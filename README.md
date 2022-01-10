@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Design preview Desktop](./solution/screenshot1.png)
+![Design preview Desktop](solution\Screenshot1.png)
 ![Design preview Mobile](./solution/screenshot2.png)
 
 ### Links
