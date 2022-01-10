@@ -14,7 +14,6 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -27,14 +26,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./solution/Screenshot1.png)
-![](./solution/Screenshot2.png)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
+![Design preview Desktop](./solution/screenshot1.png)
+![Design preview Mobile](./solution/screenshot2.png)
 
 ### Links
 
