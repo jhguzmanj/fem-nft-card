@@ -1,5 +1,6 @@
-# Frontend Mentor - NFT preview card component solution
-This is a solution to the [NFT preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U).
+# Frontend Mentor - NFT preview card component solution by Jorge H. Guzmán J.
+
+This is a solution to the [NFT preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
 
@@ -13,80 +14,86 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
-
-
-## --- Overview ---
+## Overview
 
 ### The challenge
+
 Users should be able to:
+
 - View the optimal layout depending on their device's screen size
 - See hover states for interactive elements
 
 ### Screenshot
-- [On desktop](solution-screenshots/desktop_screenshot.jpg)
-- [On desktop hovered](solution-screenshots/desktop_focused_screenshot.jpg)
-- [On mobile screen](solution-screenshots/mobile_screenshot.jpg)
+
+![](./solution/Screenshot1.png)
+![](./solution/Screenshot2.png)
+
+Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
+
+Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
+
+Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
 
 ### Links
-- Solution URL: [FrontEnd Mentor: My Solution](https://www.frontendmentor.io/solutions/nft-card-component-solution-using-flexbox-F8Dt9QZse)
-- Live Site URL: [GitHub Page: NFT Card](https://anoshaahmed.github.io/fem-nft-card/)
 
+- Solution URL: [FrontEnd Mentor: My Solution](https://www.frontendmentor.io/solutions/nft-preview-card-component-solution-by-jorge-h-guzmn-j-Fwax2nP7s)
+- Live Site URL: [GitHub Page: NFT Card Solution](https://jhguzmanj.github.io/Challenge2/)
 
-## --- My process ---
+## My process
 
 ### Built with
-- HTML5
-- CSS
-- Flexbox
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Mobile-first workflow
 
 ### What I learned
-This was the first project I did that was not a "codeAlong" so I learned a lot of things with a deeper understanding. This project reinforced my understanding of:
-- flexbox
-- position: i learned how the position of the parent element impacts the position of what's inside of it
-- planning: i learned how to plan on my code and be organized with it; for example, wrapping everything in a section, wrapping all the rows in a section etc.
-- how to give a picture a round border: by adding a background with a 50% radius
-- similarly, how to have a layer of color show up on a picture when it is hovered over using css:
+
+I have learned about handling :root to store information for later use.
+
 ```css
-.bigpic .bluebox {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 255, 247, 0.8);
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    opacity: 0;
-    cursor: pointer;
+:root {
+  --Soft-blue: hsl(215, 51%, 70%);
+  --Cyan: hsl(178, 100%, 50%);
+  --Very-dark-blue-mainBG: hsl(217, 54%, 11%);
+  --Very-dark-blue-cardBG: hsl(216, 50%, 16%);
+  --Very-dark-blue-line: hsl(215, 32%, 27%);
+  --White: hsl(0, 0%, 100%);
 }
-.bigpic .bluebox:hover {
-    opacity: 1;
+
+Also about the display option:
+
+.main {
+  margin: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-```
-- i also learned to add an attribution: where to put it in the html, and how to position it using css flexbox
-- CSS box-shadow property:
-```css
-section {
-    box-shadow: 6px 32px 35px #0c1729, -6px -2px 35px #0c1729;
-}
-```
+
+And finally, how to adjust sizes of images, texts and boxes according to the size of the screen:
+
+@media (max-width: 378px) {
+    section {
+        width: 325px;
+        height: 550px;
+    }
 
 ### Continued development
-In the future, i aim to:
-- learn the position property in more depth
+
+In the future, my goal is:
+- learn the property of position in more depth
 - better organize html
-- utilize css grid
+- use css grid
 
 ### Useful resources
+
 - [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow) - This helped me with the box shadow property.
-- [ImageColorPicker.COM](https://imagecolorpicker.com/) - I love this website for picking a color from an image. I simply take a screenshot of my screen and paste it, then I can easily pick the color.
+- [CCS Web Docs](https://devdocs.io/css/display) - This helped me with the display property.
 
+## Author
 
-## --- Author ---
-- Website - [Anosha Ahmed](https://www.anoshaahmed.com) *i have not created my website yet but i will soon.*
-- Frontend Mentor - [@anoshaahmed](https://www.frontendmentor.io/profile/anoshaahmed)
-- GitHub - [@anoshaahmed](https://github.com/anoshaahmed)
-- Twitter - [@anosha1ahmed](https://www.twitter.com/anosha1ahmed)
+- Website - [Jorge H. Guzmán J.](https://www.jhguzmanj.com) *I plan to create it later.*
+- Frontend Mentor - [@jhguzmanj](https://www.frontendmentor.io/profile/jhguzmanj)
+- GitHub - [jhguzmanj](https://github.com/jhguzmanj)
